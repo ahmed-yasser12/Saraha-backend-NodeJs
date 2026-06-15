@@ -1,0 +1,31 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "test node js and learn node",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.0.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "http-status-codes": "^2.3.0",
+    "joi": "^17.12.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.9.1",
+    "nanoid": "^5.0.6",
+    "nodemailer": "^6.9.10",
+    "qrcode": "^1.5.3",
+    "sequelize": "^6.36.0"
+  }
+}
